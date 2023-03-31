@@ -1,19 +1,19 @@
 {
   "errors": [],
   "warnings": [],
-  "hash": "1526b45a025b818cde52",
+  "hash": "bc164d6c8ed92d77cc6a",
   "publicPath": "",
   "outputPath": "C:\\Users\\akiku\\OneDrive\\Työpöytä\\VisualCode\\mjolner\\build\\static",
   "assetsByChunkName": {
     "list": "list.module.js",
     "mjolner": [
       "mjolner.module.js",
-      "mjolner.999a0f67941de3f67903.hot-update.js"
+      "mjolner.2b9aee6374cf9359b62e.hot-update.js"
     ]
   },
   "assets": [
     {
-      "name": "999a0f67941de3f67903.hot-update.json",
+      "name": "2b9aee6374cf9359b62e.hot-update.json",
       "size": 49,
       "chunks": [],
       "chunkNames": [],
@@ -25,7 +25,7 @@
     },
     {
       "name": "list.module.js",
-      "size": 50112,
+      "size": 48527,
       "chunks": [
         "list"
       ],
@@ -36,8 +36,8 @@
       "emitted": false
     },
     {
-      "name": "mjolner.999a0f67941de3f67903.hot-update.js",
-      "size": 21559,
+      "name": "mjolner.2b9aee6374cf9359b62e.hot-update.js",
+      "size": 2358,
       "chunks": [
         "mjolner"
       ],
@@ -52,7 +52,7 @@
     },
     {
       "name": "mjolner.module.js",
-      "size": 7123609,
+      "size": 7065499,
       "chunks": [
         "mjolner"
       ],
@@ -71,7 +71,7 @@
       ],
       "assets": [
         "mjolner.module.js",
-        "mjolner.999a0f67941de3f67903.hot-update.js"
+        "mjolner.2b9aee6374cf9359b62e.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -99,7 +99,7 @@
       "id": "mjolner",
       "files": [
         "mjolner.module.js",
-        "mjolner.999a0f67941de3f67903.hot-update.js"
+        "mjolner.2b9aee6374cf9359b62e.hot-update.js"
       ]
     }
   ]

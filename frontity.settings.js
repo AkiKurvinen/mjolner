@@ -2,7 +2,7 @@ const settings = {
   "name": "mjolner",
   "state": {
     "frontity": {
-      "url": "https://test.frontity.org",
+      "url": "https://mjolnercenter.wordpress.com",
       "title": "Test Frontity Blog",
       "description": "WordPress installation for Frontity development"
     }
@@ -18,8 +18,8 @@ const settings = {
               "/"
             ],
             [
-              "Nature",
-              "/category/nature/"
+              "Products",
+              "/tag/product/"
             ],
             [
               "Travel",
@@ -30,13 +30,13 @@ const settings = {
               "/tag/japan/"
             ],
             [
-              "About Us",
-              "/about-us/"
+              "About",
+              "/about/"
             ]
           ],
           "featured": {
-            "showOnList": false,
-            "showOnPost": false
+            "showOnList": true,
+            "showOnPost": true
           }
         }
       }
@@ -45,7 +45,7 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "url": "https://kurvinenblog.wordpress.com"
+          "url": "https://mjolnercenter.wordpress.com"
         }
       }
     },

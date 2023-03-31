@@ -3,10 +3,12 @@ import Switch from "@frontity/components/switch";
 import Header from "./header";
 import List from "./list";
 import Post from "./post";
+import Home from "./home";
 import Loading from "./loading";
 import Title from "./title";
 import PageError from "./page-error";
 import externalCss from "./style.css";
+
 /**
  * Theme is the root React component of our theme. The one we will export
  * in roots.
@@ -42,6 +44,7 @@ const Theme = ({ state }) => {
       <Main>
         <Switch>
           <Loading when={data.isFetching} />
+          <Home when={data.isHome} />
           <List when={data.isArchive} />
           <Post when={data.isPostType} />
           <PageError when={data.isError} />
@@ -55,19 +58,6 @@ export default connect(Theme);
 
 const globalStyles = css(externalCss);
 
-const HeadContainer = styled.div`
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  background-color: #1f38c5;
-`;
+const HeadContainer = styled.div();
 
-const Main = styled.div`
-  display: flex;
-  justify-content: center;
-  background-image: linear-gradient(
-    180deg,
-    rgba(66, 174, 228, 0.1),
-    rgba(66, 174, 228, 0)
-  );
-`;
+const Main = styled.div();
