@@ -1,0 +1,106 @@
+{
+  "errors": [],
+  "warnings": [],
+  "hash": "1526b45a025b818cde52",
+  "publicPath": "",
+  "outputPath": "C:\\Users\\akiku\\OneDrive\\Työpöytä\\VisualCode\\mjolner\\build\\static",
+  "assetsByChunkName": {
+    "list": "list.module.js",
+    "mjolner": [
+      "mjolner.module.js",
+      "mjolner.999a0f67941de3f67903.hot-update.js"
+    ]
+  },
+  "assets": [
+    {
+      "name": "999a0f67941de3f67903.hot-update.json",
+      "size": 49,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "list.module.js",
+      "size": 50112,
+      "chunks": [
+        "list"
+      ],
+      "chunkNames": [
+        "list"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "mjolner.999a0f67941de3f67903.hot-update.js",
+      "size": 21559,
+      "chunks": [
+        "mjolner"
+      ],
+      "chunkNames": [
+        "mjolner"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "mjolner.module.js",
+      "size": 7123609,
+      "chunks": [
+        "mjolner"
+      ],
+      "chunkNames": [
+        "mjolner"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "namedChunkGroups": {
+    "mjolner": {
+      "chunks": [
+        "mjolner"
+      ],
+      "assets": [
+        "mjolner.module.js",
+        "mjolner.999a0f67941de3f67903.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "list": {
+      "chunks": [
+        "list"
+      ],
+      "assets": [
+        "list.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "generator": "loadable-components",
+  "chunks": [
+    {
+      "id": "list",
+      "files": [
+        "list.module.js"
+      ]
+    },
+    {
+      "id": "mjolner",
+      "files": [
+        "mjolner.module.js",
+        "mjolner.999a0f67941de3f67903.hot-update.js"
+      ]
+    }
+  ]
+}
